@@ -11,7 +11,8 @@ export default function Profile() {
             className="rounded-full size-48"
           />
           <div className="rotate-90 flex flex-row text-start text-xs p-2">
-            sd535682@gmail.com &nbsp; <CopyTextComponent />
+            sd535682@gmail.com&nbsp;&nbsp;
+            <CopyTextComponent />
           </div>
         </div>
         <h1 className="font-inter font-bold">
