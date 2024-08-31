@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import CopyTextComponent from "./ui/copytext";
+import DownloadButton from "./downloadcv";
 
 export default function Profile() {
   return (
@@ -31,6 +32,7 @@ export default function Profile() {
             }}
           />
         </h1>
+        <DownloadButton />
       </div>
       <h1 className="text-2xl lg:text-3xl font-poppins font-bold">
         Hey, I&apos;m Subhadeep Das.
@@ -40,7 +42,7 @@ export default function Profile() {
           <Typewriter
             options={{
               strings: [
-                "React Native Developer",
+                "React Native Dev",
                 "ReactJS Developer",
                 "Front-End Developer",
               ],
