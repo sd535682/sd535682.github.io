@@ -11,12 +11,12 @@ export default function Profile() {
             src="https://raw.githubusercontent.com/sd535682/sd535682.github.io/main/src/assets/images/avatar.webp"
             className="rounded-full size-48"
           />
-          <div className="rotate-90 flex flex-row text-start text-xs p-2">
+          <div className="rotate-90 flex flex-row text-start text-xs p-2 dark:text-darkTheme-textColor">
             sd535682@gmail.com&nbsp;&nbsp;
             <CopyTextComponent />
           </div>
         </div>
-        <h1 className="font-inter font-bold">
+        <h1 className="font-inter font-bold dark:text-darkTheme-textColor">
           <Typewriter
             options={{
               strings: [
@@ -34,7 +34,7 @@ export default function Profile() {
         </h1>
         <DownloadButton />
       </div>
-      <h1 className="text-2xl lg:text-3xl font-poppins font-bold">
+      <h1 className="text-2xl lg:text-3xl font-poppins font-bold dark:text-darkTheme-textColor">
         Hey, I&apos;m Subhadeep Das.
         <br />
         I&apos;m a &nbsp;
@@ -54,7 +54,7 @@ export default function Profile() {
         <br />
         based in Kolkata, WB.
       </h1>
-      <p className="text-gray-700 text-md lg:text-lg font-inter font-medium">
+      <p className="text-gray-700 text-md lg:text-lg font-inter font-medium dark:text-darkTheme-textGrey">
         I’m a frontend developer who loves transforming ideas into reality with
         code. I’m always eager to learn new technologies and optimize my
         workflow. When I’m not coding, I’m probably traveling, drawing, or

@@ -30,7 +30,7 @@ export default function ContactForm() {
   return (
     <>
       <div className="flex flex-col font-inter font-bold gap-5">
-        <h1 className="text-xl lg:text-2xl font-poppins font-bold">
+        <h1 className="text-xl lg:text-2xl font-poppins font-bold dark:text-darkTheme-textColor">
           Contact Me
         </h1>
         <form onSubmit={onSubmit} className="flex flex-col gap-4">

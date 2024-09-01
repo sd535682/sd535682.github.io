@@ -4,7 +4,7 @@ export default function SocialLink({ icon, url }) {
   return (
     <>
       <a href={url} target="_blank">
-        <i className={icon} />
+        <i className={`${icon} dark:text-darkTheme-textColor`} />
       </a>
     </>
   );

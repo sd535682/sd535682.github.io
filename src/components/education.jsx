@@ -1,7 +1,9 @@
 export default function Education() {
   return (
     <>
-      <h1 className="text-xl lg:text-2xl font-poppins font-bold">Education</h1>
+      <h1 className="text-xl lg:text-2xl font-poppins font-bold dark:text-darkTheme-textColor">
+        Education
+      </h1>
       <div className="flex flex-row gap-5 font-inter">
         <div className="flex-1 bg-gray-200 p-5 rounded-lg">
           <strong>Masters</strong>

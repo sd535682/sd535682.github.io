@@ -3,7 +3,9 @@ import Cards from "./ui/cards";
 export default function Projects() {
   return (
     <>
-      <h1 className="text-xl lg:text-2xl font-poppins font-bold">Projects</h1>
+      <h1 className="text-xl lg:text-2xl font-poppins font-bold dark:text-darkTheme-textColor">
+        Projects
+      </h1>
       {/* Projects List */}
       <Cards
         url="https://github.com/sd535682/Nectarful-Ai"
