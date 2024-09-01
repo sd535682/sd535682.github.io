@@ -11,7 +11,7 @@ export default function Profile() {
             src="https://raw.githubusercontent.com/sd535682/sd535682.github.io/main/src/assets/images/avatar.webp"
             className="rounded-full size-48"
           />
-          <div className="rotate-90 flex flex-row text-start text-xs p-2 dark:text-darkTheme-textColor">
+          <div className="rotate-90 flex flex-row text-start font-poppins font-bold text-xs py-5 dark:text-darkTheme-textColor">
             sd535682@gmail.com&nbsp;&nbsp;
             <CopyTextComponent />
           </div>

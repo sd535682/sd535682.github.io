@@ -8,7 +8,9 @@ export default function Header() {
           <span>
             <i className="fa-solid fa-terminal dark:text-darkTheme-textColor"></i>
           </span>
-          <h1 className="dark:text-darkTheme-textColor">Subhadeep Portfolio</h1>
+          <h1 className="dark:text-darkTheme-textColor font-poppins font-bold">
+            Subhadeep Portfolio
+          </h1>
         </div>
         <ThemeButton />
       </div>
