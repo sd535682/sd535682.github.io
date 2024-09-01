@@ -11,9 +11,15 @@ export default function Profile() {
             src="https://raw.githubusercontent.com/sd535682/sd535682.github.io/main/src/assets/images/avatar.webp"
             className="rounded-full size-48"
           />
-          <div className="rotate-90 flex flex-row text-start font-poppins font-bold text-xs py-5 dark:text-darkTheme-textColor">
-            sd535682@gmail.com&nbsp;&nbsp;
-            <CopyTextComponent />
+          <div className="flex flex-col justify-end items-end gap-5">
+            <div className="flex flex-row text-start font-poppins font-bold text-xs dark:text-darkTheme-textColor">
+              sd535682@gmail.com&nbsp;&nbsp;
+              <CopyTextComponent props={"sd535682@gmail.com"} />
+            </div>
+            <div className="flex flex-row text-start font-poppins font-bold text-xs dark:text-darkTheme-textColor">
+              <a href="tel:+917001482062">7001482062</a>&nbsp;&nbsp;
+              <CopyTextComponent props={7001482062} />
+            </div>
           </div>
         </div>
         <h1 className="font-inter font-bold dark:text-darkTheme-textColor">

@@ -1,8 +1,9 @@
 import { useState } from "react";
 
-function CopyTextComponent() {
+// eslint-disable-next-line react/prop-types
+function CopyTextComponent({ props }) {
   const [copied, setCopied] = useState(false);
-  const textToCopy = "sd535682@gmail.com";
+  const textToCopy = props;
 
   const handleCopy = async () => {
     try {
