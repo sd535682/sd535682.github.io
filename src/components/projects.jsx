@@ -11,9 +11,9 @@ export default function Projects() {
         url="https://github.com/sd535682/Nectarful-Ai"
         title="Nectarful AI"
         year="2024"
-        desc="Developed a React Native app to create AI-powered fruit smoothie recipes, highlighting expertise in mobile development, API integration, and AI."
+        desc="Developed a React Native app to create AI-powered fruit smoothie recipes, highlighting expertise in mobile development, SQL Database integration, and AI Text generation. Video Demo - https://www.youtube.com/watch?v=_0ITl5YqaJs"
         imageurl=""
-        stack="React Native, Expo, Expo Router, Supabase, Zustand, LLaMA 3"
+        stack="React Native, RN CLI, Supabase, Zustand, Mistral AI, Charts, Reanimated"
       />
       <Cards
         url=" https://addons.mozilla.org/en-US/firefox/addon/cloud-cover-lite-weather/"
