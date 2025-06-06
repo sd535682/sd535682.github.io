@@ -50,7 +50,8 @@ export default function Profile() {
               strings: [
                 "React Native Dev",
                 "ReactJS Developer",
-                "Front-End Developer",
+                "FrontEnd Developer",
+                "Full Stack Developer",
               ],
               autoStart: true,
               loop: true,
@@ -61,8 +62,8 @@ export default function Profile() {
         based in Kolkata, WB.
       </h1>
       <p className="text-gray-700 text-md lg:text-lg font-inter font-medium dark:text-darkTheme-textGrey">
-        I’m a frontend developer who loves transforming ideas into reality with
-        code. I’m always eager to learn new technologies and optimize my
+        I’m a Full Stack Developer who loves transforming ideas into reality
+        with code. I’m always eager to learn new technologies and optimize my
         workflow. When I’m not coding, I’m probably traveling, drawing, or
         geeking out over the latest gadgets. Let’s build something amazing
         together!

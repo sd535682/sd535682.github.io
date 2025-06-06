@@ -7,13 +7,8 @@ export default function Skills() {
       <div className="font-inter dark:text-darkTheme-textColor">
         <strong>Technical Skills &rArr;</strong>
         <p className="text-gray-500 dark:text-darkTheme-textGrey font-semibold">
-          JavaScript, Python, React, MySQL, Tailwind CSS, Git, Linux
-        </p>
-      </div>
-      <div className="font-inter dark:text-darkTheme-textColor">
-        <strong>Soft Skills &rArr;</strong>
-        <p className="text-gray-500 dark:text-darkTheme-textGrey font-semibold">
-          Strong problem-solving, Analytical skills
+          JavaScript, TypeScript, React, React Native, Node.js, Express.js,
+          MongoDB, Tailwind CSS, Git, Linux
         </p>
       </div>
     </>

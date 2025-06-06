@@ -8,6 +8,22 @@ export default function Projects() {
       </h1>
       {/* Projects List */}
       <Cards
+        url="https://github.com/sd535682/QuoteCanvas"
+        title="QuoteCanvas"
+        year="2025"
+        desc="Developed a secure full-stack React Native app with Node.js, Express.js and MongoDB, improving performance by 40% and reducing runtime errors by 50% using TypeScript. Implemented JWT authentication, rate limiting, and persistent storage solutions like MMKV and Zustand."
+        imageurl=""
+        stack="React Native, Node.js, Express.js, MongoDB, TypeScript, JWT, MMKV, Zustand"
+      />
+      <Cards
+        url="https://github.com/sd535682/QuoteCanvas_Backend"
+        title="QuoteCanvas - Backend"
+        year="2025"
+        desc="Backend for QuoteCanvas"
+        imageurl=""
+        stack="Node.js, Express.js, MongoDB"
+      />
+      <Cards
         url="https://github.com/sd535682/Nectarful-Ai"
         title="Nectarful AI"
         year="2024"
