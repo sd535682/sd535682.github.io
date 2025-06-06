@@ -6,7 +6,7 @@ export default function DownloadButton() {
         target="_blank"
         className="px-4 py-2 bg-black dark:bg-darkTheme-textColor text-darkTheme-textColor dark:text-black w-fit text-sm font-inter font-extrabold rounded-lg"
       >
-        Download Resume&nbsp;&nbsp;
+        View Resume&nbsp;&nbsp;
         <i className="fa-solid fa-cloud-arrow-down"></i>
       </a>
     </>
