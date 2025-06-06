@@ -11,7 +11,7 @@ export default function Projects() {
         url="https://github.com/sd535682/QuoteCanvas"
         title="QuoteCanvas"
         year="2025"
-        desc="Developed a secure full-stack React Native app with Node.js, Express.js and MongoDB, improving performance by 40% and reducing runtime errors by 50% using TypeScript. Implemented JWT authentication, rate limiting, and persistent storage solutions like MMKV and Zustand."
+        desc="Built a secure full-stack mobile app using React Native for the frontend and Node.js, Express.js, and MongoDB for the backend. The app displays both public and user-generated quotes, allowing users to share them on their favorite social platforms. Integrated MMKV and Zustand for efficient and persistent state management."
         imageurl=""
         stack="React Native, Node.js, Express.js, MongoDB, TypeScript, JWT, MMKV, Zustand"
       />
@@ -19,9 +19,9 @@ export default function Projects() {
         url="https://github.com/sd535682/QuoteCanvas_Backend"
         title="QuoteCanvas - Backend"
         year="2025"
-        desc="Backend for QuoteCanvas"
+        desc="Developed the backend for QuoteCanvas with secure JWT authentication, rate limiting, and MongoDB for data storage. Implemented protected API endpoints for user authentication, quote CRUD operations, and user management."
         imageurl=""
-        stack="Node.js, Express.js, MongoDB"
+        stack="Node.js, Express.js, MongoDB, Render"
       />
       <Cards
         url="https://github.com/sd535682/Nectarful-Ai"
